@@ -1,0 +1,32 @@
+@media (min-width: 1200px) {
+    /* Main header */
+
+}
+
+@media (max-width: 1199px) {
+    /* Main header */
+
+}
+
+@media (max-width: 991px) { 
+    /* Main header */
+    .nav-main ul {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    /* Main header */
+    .nav-main {
+        display: none;
+    }
+    .header-text {
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 479px) {
+    /* Main header */
+
+}
+
