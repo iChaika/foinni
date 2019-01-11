@@ -58,7 +58,6 @@ a:hover {
 .nav-main ul {
     display: flex;
     list-style: none;
-    flex-wrap: wrap;
     margin-right: 56px;
 }
 
@@ -69,23 +68,32 @@ a:hover {
     font-size: 20px;
 }
 
+.menu-responsive-close {
+    display: none;
+    position: fixed;
+    top: 25px;
+    right:30px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 26px;
+}
+
 .show {
+    width: 100%;
     background: #000;
-    position: absolute;
-    display: flex;
-    justify-content: center;
+    position: fixed;
+    flex-direction: column;
     align-items: center;
-    flex-wrap: wrap;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    justify-content: center;
+    top: 0; left: 0; right: 0; bottom: 0;
+    overflow:auto;
 }
 
 .show ul {
+    padding: 50px 0;
     display: flex;
     list-style: none;
-    flex-wrap: wrap;
     flex-direction: column;
     text-align: center;
 }

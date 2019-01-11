@@ -71,6 +71,7 @@
 
     .footer {
         padding-bottom: 30px;
+        justify-content: flex-start;
     }
 
     .footer-about {
@@ -96,13 +97,20 @@
 }
 
 @media (max-width: 767px) {
-
     .menu-responsive {
         display: flex;
     }
 
+    .menu-responsive-close {
+        display: block;
+    }
+
     .nav-main {
         display: none;
+    }
+
+    .show {
+        display: flex;
     }
 
     .latest-work-nav label {
