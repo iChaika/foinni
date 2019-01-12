@@ -70,8 +70,8 @@
     }
 
     .footer {
-        padding-bottom: 30px;
         justify-content: flex-start;
+        padding-bottom: 30px;
     }
 
     .footer-about {
@@ -107,6 +107,15 @@
 
     .nav-main {
         display: none;
+    }
+
+    .nav-main ul li a {
+        display: block;
+        padding-bottom: 14px;
+        font-size: 16px;
+    }
+    .nav-main ul li a:hover {
+        border: 0;
     }
 
     .show {

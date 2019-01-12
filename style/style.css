@@ -7,8 +7,8 @@
 body {
     font-family: "Roboto";
     font-size: 18px;
-    color: #8f8e91;
     line-height: 36px;
+    color: #8f8e91;
 }
 
 a {
@@ -36,10 +36,10 @@ a:hover {
 /* Main header */
 
 .main-header {
-    background: #000 url(../images/bg.jpg) 50% 0px no-repeat;
-    background-size: cover;
     width: 100%;
     height: 802px;
+    background: #000 url(../images/bg.jpg) 50% 0px no-repeat;
+    background-size: cover;
 }
 
 .header {
@@ -63,69 +63,69 @@ a:hover {
 
 .menu-responsive {
     display: none;
-    color: #fff;
     font-weight: bold;
     font-size: 20px;
+    color: #fff;
 }
 
 .menu-responsive-close {
-    display: none;
     position: fixed;
     top: 25px;
     right:30px;
+    display: none;
+    font-size: 26px;
+    font-weight: bold;
     text-transform: uppercase;
     color: #ffffff;
-    font-weight: bold;
-    font-size: 26px;
 }
 
 .show {
-    width: 100%;
-    background: #000;
     position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    width: 100%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    top: 0; left: 0; right: 0; bottom: 0;
     overflow:auto;
+    background: #000;
 }
 
 .show ul {
-    padding: 50px 0;
     display: flex;
     list-style: none;
     flex-direction: column;
+    padding: 50px 0;
     text-align: center;
 }
 
 .nav-main ul li a {
+    margin: 0px 21px;
+    text-transform: uppercase;
     font-size: 14px;
     color: #fff;
-    margin: 0px 21px;
     transition: 0.3s;
-    text-transform: uppercase;
 }
 
 .nav-main ul li a:hover {
-    color: #1dde85;
     padding-bottom: 14px;
+    color: #1dde85;
     border-bottom: 1px solid #1dde85;
 }
 
 .header-text {
-    margin-top: 238px;
-    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 238px;
+    text-align: center;
 }
 
 .header-text h1 {
     font-family: "Exo";
-    color: #fffcf4;
     font-size: 48px;
     font-weight: 400;
+    color: #fffcf4;
 }
 
 .header-text h1 span {
@@ -135,10 +135,10 @@ a:hover {
 
 .header-text p {
     max-width: 914px;
-    color: #ffffff;
+    margin-top: 5px;
     font-size: 18px;
     line-height: 36px;
-    margin-top: 5px;
+    color: #ffffff;
 }
 
 /* Welcome */
@@ -164,33 +164,33 @@ a:hover {
 .welcome-text {
     max-width: 895px;
     margin-top: 45px;
-    color: #8f8e91;
     font-size: 18px;
     font-weight: 100;
     line-height: 30px;
     text-align: center;
+    color: #8f8e91;
 }
 
 .service {
-    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 100%;
     margin-top: 80px;
 }
 
 .service-block {
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 48px;
-    width: 358px;
-    min-height: 250px;
-    border: 1px solid #e6e6e6;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 358px;
+    min-height: 250px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 48px;
     text-align: center;
+    border: 1px solid #e6e6e6;
     transition: 0.3s;
 }
 
@@ -204,20 +204,20 @@ a:hover {
 
 .service-block h3 {
     margin-top: 18px;
-    color: #454546;
     font-size: 24px;
     font-weight: bold;
     line-height: 45px;
+    color: #454546;
 }
 
 .service-block p {
-    padding: 0 15px;
     margin-top: 10px;
     margin-bottom: 20px;
-    color: #8f8e91;
+    padding: 0 15px;
     font-size: 14px;
     font-weight: 100;
     line-height: 30px;
+    color: #8f8e91;
 }
 
 .service-block:hover {
@@ -245,18 +245,18 @@ a:hover {
 .meet-us-title {
     margin-top: 67px;
     margin-bottom: 75px;
-    color: #454546;
     font-size: 30px;
     font-weight: bold;
     line-height: 36px;
+    color: #454546;
 }
 
 .meet-us-blocks {
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
+    width: 100%;
 }
 .meet-us-blocks img {
     width: 100%;
@@ -264,31 +264,29 @@ a:hover {
 }
 
 .meet-us-block {
+    position: relative;
     width: 269px;
     height: 355px;
-    position: relative;
 }
 
 .meet-us-block-info {
-    height: 68px;
     position: absolute;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background-color: #454546;
-    opacity: 0.94;
+    left: 0; bottom: 0; right: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 68px;
+    background-color: #454546;
+    opacity: 0.94;
     transition: all 0.3s;
 }
 
 .meet-us-block-info span {
-    color: #fffcf4;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
+    color: #fffcf4;
 }
 
 .meet-us-block-info span.title {
@@ -301,10 +299,7 @@ a:hover {
 }
 
 .meet-us-block:hover .meet-us-block-info {
-    bottom: -15px;
-    left: -15px;
-    right: -15px;
-    height: 385px;
+    bottom: -15px; left: -15px; right: -15px; height: 385px;
     background: #1dde85;
 }
 
@@ -315,37 +310,37 @@ a:hover {
 }
 
 .meet-us-ico {
+    position: absolute;
+    bottom: 50px;
     width: 100%;
     height: 38px;
     border-bottom: 1px solid #ffffff;
     border-top: 1px solid #ffffff;
     opacity: 0.94;
-    position: absolute;
-    bottom: 50px;
 }
 
 .meet-us-ico .be {
-    background: url("../images/meet-us-ico.png") no-repeat;
     width: 26px;
     height: 17px;
-    background-position: 0 0;
     margin-right: 18px;
+    background: url("../images/meet-us-ico.png") no-repeat;
+    background-position: 0 0;
 }
 
 .meet-us-ico .facebook {
-    background: url("../images/meet-us-ico.png") no-repeat;
     width: 8px;
     height: 18px;
-    background-position: -43px 0;
     margin-right: 18px;
+    background: url("../images/meet-us-ico.png") no-repeat;
+    background-position: -43px 0;
 }
 
 .meet-us-ico .twitter {
-    background: url("../images/meet-us-ico.png") no-repeat;
     width: 20px;
     height: 17px;
-    background-position: -70px 1px;
     margin-right: 18px;
+    background: url("../images/meet-us-ico.png") no-repeat;
+    background-position: -70px 1px;
 }
 
 /** Latest Work **/
@@ -359,10 +354,10 @@ a:hover {
 .latest-work-title {
     margin-top: 115px;
     margin-bottom: 50px;
-    color: #454546;
     font-size: 30px;
     font-weight: bold;
     line-height: 36px;
+    color: #454546;
 }
 
 .latest-work-nav {
@@ -373,12 +368,12 @@ a:hover {
 }
 
 .latest-work-nav label {
+    position: relative;
     margin-right: 40px;
-    color: #434243;
     font-size: 18px;
     font-weight: 400;
     line-height: 36px;
-    position: relative;
+    color: #434243;
     cursor: pointer;
     transition: 0.3s;
 }
@@ -398,12 +393,10 @@ a:hover {
 .latest-work-nav input:checked+label:after {
     content: '';
     position: absolute;
-    bottom: 0;
-    left: 0;
+    bottom: 0; left: 0;
     width: 100%;
     height: 2px;
     background: #1dde85;
-
 }
 
 .latest-work-items {
@@ -412,9 +405,9 @@ a:hover {
 }
 
 .latest-work-item {
-    margin-top: 50px;
     width: 390px;
     height: 390px;
+    margin-top: 50px;
     transition: 0.3s;
 }
 
@@ -430,17 +423,17 @@ a:hover {
 }
 
 .latest-work-btn {
-    border: 0;
-    margin-top: 50px;
     width: 195px;
     height: 50px;
-    background-color: #1dde85;
-    color: #fffcf4;
+    margin-top: 50px;
     font-size: 18px;
     font-weight: 400;
     line-height: 36px;
-    transition: 0.3s;
+    color: #fffcf4;
+    background-color: #1dde85;
+    border: 0;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .latest-work-btn:hover {
@@ -464,12 +457,12 @@ a:hover {
 }
 
 .price-items {
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 .price-item {
@@ -477,20 +470,20 @@ a:hover {
 }
 
 .price-item .title {
-    text-align: center;
     color: #8f8e91;
+    text-align: center;
     font-size: 14px;
     font-weight: 400;
     line-height: 36px;
 }
 
 .price-item-block {
-    width: 268px;
-    min-height: 370px;
-    margin-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 268px;
+    min-height: 370px;
+    margin-top: 30px;
     color: #454546;
     border: 1px solid #fff;
     cursor: pointer;
@@ -542,16 +535,15 @@ a:hover {
 }
 
 .price-item-block button {
-    margin-top: 20px;
-    border: 0;
-    background: #fff;
     width: 100px;
     height: 40px;
-    border: 1px solid #454546;
+    margin-top: 20px;
     color: #454546;
     font-size: 14px;
     font-weight: 400;
     line-height: 36px;
+    background: #fff;
+    border: 1px solid #454546;
     cursor: pointer;
 }
 
@@ -561,9 +553,9 @@ a:hover {
 }
 
 .price-item-block:hover>span {
-    border: 0;
     color: #fffcf4;
     background: #1dde85;
+    border: 0;
 }
 
 .price-item-block:hover button {
@@ -572,14 +564,14 @@ a:hover {
     background: #1dde85;
 }
 
-/** COntact **/
+/** Contact **/
 
 .contact-w {
+    width: 100%;
+    min-height: 499px;
     margin-top: 125px;
     background: url(../images/contact.jpg) no-repeat;
     background-size: cover;
-    width: 100%;
-    min-height: 499px;
 }
 
 .contact {
@@ -599,11 +591,11 @@ a:hover {
 }
 
 .contact form {
-    margin-top: 20px;
-    width: 100%;
-    max-width: 894px;
     display: flex;
     flex-direction: column;
+    width: 100%;
+    max-width: 894px;
+    margin-top: 20px;
 }
 
 .form-name {
@@ -625,12 +617,12 @@ a:hover {
     max-width: 438px;
     height: 50px;
     padding: 20px;
-    border: 1px solid #ffffff;
-    background: inherit;
     color: #fffcf4;
     font-size: 14px;
     font-weight: 400;
     line-height: 36px;
+    background: inherit;
+    border: 1px solid #ffffff;
     outline: none;
 }
 
@@ -642,18 +634,18 @@ a:hover {
 }
 
 .contact form textarea {
-    outline: none;
-    margin-top: 28px;
-    background: inherit;
     width: 100%;
     max-width: 894px;
     height: 215px;
-    border: 1px solid #ffffff;
+    margin-top: 28px;
     padding: 10px 20px;
     color: #fffcf4;
     font-size: 14px;
     font-weight: 400;
     line-height: 36px;
+    background: inherit;
+    border: 1px solid #ffffff;
+    outline: none;
     resize: none;
 }
 
@@ -665,17 +657,17 @@ a:hover {
 }
 
 .contact form button {
-    cursor: pointer;
-    border: 0;
     width: 195px;
     height: 50px;
-    background-color: #1dde85;
+    margin: 0 auto;
+    margin-top: 20px;
     color: #fffcf4;
     font-size: 18px;
     font-weight: 400;
     line-height: 36px;
-    margin: 0 auto;
-    margin-top: 20px;
+    background-color: #1dde85;
+    border: 0;
+    cursor: pointer;
     transition: 0.3s;
 }
 
@@ -690,10 +682,10 @@ a:hover {
 }
 
 .footer {
-    min-height: 330px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    min-height: 330px;
     padding: 30px 30px 0 30px;
 }
 
@@ -703,11 +695,11 @@ a:hover {
 }
 
 .footer-about-title {
+    margin-bottom: 10px;
     color: #ffffff;
     font-size: 18px;
     font-weight: bold;
     line-height: 36px;
-    margin-bottom: 10px;
 }
 
 .footer-about p {
@@ -723,11 +715,11 @@ a:hover {
 }
 
 .footer-links-title {
+    margin-bottom: 10px;
     color: #ffffff;
     font-size: 18px;
     font-weight: bold;
     line-height: 36px;
-    margin-bottom: 10px;
 }
 
 .footer-links ul {
@@ -754,11 +746,11 @@ a:hover {
 }
 
 .copyright {
-    height: 76px;
-    background: #000;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 76px;
+    background: #000;
 }
 
 .footer-find-us {
@@ -767,11 +759,11 @@ a:hover {
 
 .footer-social span {
     display: block;
+    margin-bottom: 10px;
     color: #ffffff;
     font-size: 18px;
     font-weight: bold;
     line-height: 36px;
-    margin-bottom: 10px;
 }
 
 .footer-find-us-ico {
@@ -779,10 +771,10 @@ a:hover {
 }
 
 .footer-find-us-ico a {
-    background: url(../images/footer-social.png) no-repeat;
     width: 40px;
     height: 40px;
     margin-right: 6px;
+    background: url(../images/footer-social.png) no-repeat;
 }
 
 .footer-find-us-ico a:last-child {
@@ -806,29 +798,29 @@ a:hover {
 }
 
 .footer-subscribe input {
-    background: inherit;
     width: 250px;
     height: 42px;
     padding: 15px;
-    border: 1px solid #838484;
     color: #8f8e91;
     font-size: 14px;
     font-weight: bold;
     line-height: 36px;
+    background: inherit;
+    border: 1px solid #838484;
     outline: none;
 }
 
 .footer-subscribe button {
-    margin-top: 15px;
-    border: 0;
     width: 105px;
     height: 37px;
-    background-color: #1dde85;
+    margin-top: 15px;
     color: #ffffff;
     font-size: 16px;
     line-height: 36px;
-    transition: 0.3s;
+    background-color: #1dde85;
+    border: 0;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .footer-subscribe button:hover {
